@@ -7,6 +7,10 @@ class Roboter:
     def mache_sound(self):
         print("Beep.")
 
+    # Roboter nimmt Schaden entgegen bei Energy
+    def nimm_schaden():
+        pass
+
     # Roboter fügt anderen Roboter Schaden zu, so dass die Energy um 50 sinkt
     def strike_roboter():
         pass
