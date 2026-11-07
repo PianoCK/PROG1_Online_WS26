@@ -18,8 +18,8 @@ class Roboter:
     def __repr__(self):
         return f"Roboter {self.name} / Energy: {self.energy}"
 
-robi = Roboter("Robi",100)
-robbi = Roboter("Robbi",60)
-robi.mache_sound()
-print(robi.energy)
-print(robi)
+terminator = Roboter("Terminator",100)
+r2d2 = Roboter("R2D2",60)
+r2d2.mache_sound()
+print(r2d2.energy)
+print(r2d2)
